@@ -6,7 +6,7 @@ metadata:
   labels:
     app: nginx
   name: nginx
-  namespace: default
+  namespace: dev 
 spec:
   progressDeadlineSeconds: 600
   replicas: 4
